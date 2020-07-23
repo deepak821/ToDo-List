@@ -1,0 +1,25 @@
+{
+  "name": "deepak_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepak821/Interior-design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepak821/Interior-design/issues"
+  },
+  "homepage": "https://github.com/deepak821/Interior-design#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19",
+    "pug": "^3.0.0"
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    style
+      include ../static/style.css
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <svg class="bi bi-card-checklist" width="3em" height="3em" filter=invert(100%) viewBox="0 0 16 16" fill="color" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+          <path fill-rule="evenodd" d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z" />
+        </svg>
+
+        <div class="sub">
+            <a href="/"><button id="home" class="btn btn-outline-success"> HOME </button></a>
+            <a href="/show"><button id="VIEW" class="btn btn-outline-warning"> VIEW </button></a>
+        </div>
+        </nav>
+    
+    <section class="body">
+        <div class="cont">
+            <h1 style="color: transparent;">task</h1>
+            <form action="/create" class="form" method="POST" autocomplete="off">
+                <h1>CREATE YOUR TASK</h1>
+            <input type="text" name="name" id="name" placeholder="NAME">
+            <input type="text" name="day" id="name" placeholder="DAY">
+                <input type="text" name="task" id="task" placeholder="TASK">
+                | FROM:<input type="time" name="from" id="time">
+                | UPTO:<input type="time" name="upto" id="time">
+            <br>
+            <button class="btt">SUBMIT</button>
+            <br>
+            <h3>#{cont}</h3>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
