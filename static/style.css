@@ -48,7 +48,8 @@ a{
   .body{
       margin-top: -20px;
       background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
-    height: 593px;
+      
+    height: 690px;
     align-items: center;
     justify-content: center;
   }
