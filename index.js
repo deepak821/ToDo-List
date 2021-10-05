@@ -24,12 +24,12 @@ db.once('open', function() {
 const kittySchema = new mongoose.Schema({
     name: {
         type: String,
-        required:"This field is mandetory"
+        required:"This field is mandatory"
     },
     day: String,
     task:{
         type: String,
-        required:"This field is mandetory"
+        required:"This field is mandatory"
     },
     from:String,
     upto:String

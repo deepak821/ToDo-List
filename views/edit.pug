@@ -24,19 +24,19 @@
     
     <section class="body">
         <div class="cont">
-            <h1 style="color: transparent;">FILL UP THIS BLOCK</h1>
+            <h1 style="color: transparent;"> FILL UP THIS BLOCK </h1>
             <form action="/edit" class="form" method="POST" autocomplete="off">
-                <h1>UPDATE YOUR TASK</h1>
+                <h1> UPDATE YOUR TASK </h1>
                 <input type="hidden" name="_id" id="_id" value="#{create._id}">
-                <input type="text" name="name" id="name" placeholder="NAME" value="#{create.name}">
-                <input type="text" name="day" id="name" placeholder="DAY" value="#{create.date}">
+                <input type="text" name="name" id="name" placeholder=" YOUR NAME" value="#{create.name}">
+                <input type="text" name="day" id="name" placeholder=" DAY " value="#{create.date}">
                 <div class="main">
-                    <input type="text" name="task" id="task" placeholder="TASK" value="#{create.task}">
-                    | FROM:<input type="time" name="from" id="time" value="#{create.from}">
-                    | UPTO:<input type="time" name="upto" id="time" value="#{create.upto}">
+                    <input type="text" name="task" id="task" placeholder=" TASK " value="#{create.task}">
+                    <label> FROM: </label> <input type="time" name="from" id="time" value="#{create.from}">
+                    <label> UPTO: </label> <input type="time" name="upto" id="time" value="#{create.upto}">
                 </div>
                 <br>
-                <button class="btt">SUBMIT</button>
+                <button class="btt"> SUBMIT </button>
                 <br>
                 <h3>#{cont}</h3>
                 </form>
